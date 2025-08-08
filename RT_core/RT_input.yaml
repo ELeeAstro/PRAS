@@ -1,0 +1,30 @@
+RT_input:
+
+  nlay: 200
+  ptop: 1.0e-8
+  pbot: 100.0
+  
+  T_p_VMR_file: 'HD_189_VULCAN.txt'
+  grav: 2310.0
+  cp: 1.1373e+8
+  T_int: 350.0
+
+  mu_z: 0.577
+
+  nsp: 10
+  sp: ['OH','H2O','CO','CO2','CH4','C2H2','NH3','HCN','Na','K']
+
+  mode: 'PRAS'
+
+  nb: 11
+  wl_file: '../kp_tables/wavelengths_GCM_11.txt'
+
+  ng: 16
+  split: True
+  g_split: 0.80
+
+  p_deg: 32
+  n_samp: 100
+
+  k_tab_ext: 'g16_11'
+  p_tab_ext: 'p32_11'
