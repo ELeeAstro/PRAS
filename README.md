@@ -3,7 +3,7 @@ Polynomial Reconstruction and Sampling method
 
 This repository outlines the PRAS approach, as well as the AEE, RORR methods 
 
-This is a research 
+This is a research code, designed for methodological testing, rather than an optimised practical implementation.
 
 ## Testing
 
